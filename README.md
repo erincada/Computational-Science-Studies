@@ -9,7 +9,7 @@ This repository contains codes and reports for various projects in computational
 **Simulation of a Three-Mass Spring System**
 
 Compares the velocity Verlet algorithm with the time-evolution operator method to simulate a three-mass system connected by springs.  
-**Plot:**  
+ 
 <img src="images/1.png" alt="Newton Plot" width="400">
 
 ---
@@ -19,7 +19,7 @@ Compares the velocity Verlet algorithm with the time-evolution operator method t
 **Derivative Approximation Methods**
 
 Analyzes and compares derivative approximation using Finite-Difference methods, FFT-based methods, and the DFT matrix approach on smooth, periodic functions.  
-**Plot:**  
+
 <img src="images/2.png" alt="Fourier Plot" width="400">
 
 ---
@@ -29,7 +29,7 @@ Analyzes and compares derivative approximation using Finite-Difference methods, 
 **Tight-Binding Model for Graphene Nanoribbons**
 
 Implements a tight-binding model with modified edge hopping to calculate band structures of armchair graphene nanoribbons, highlighting the effect of edge corrections.  
-**Plot:**  
+
 <img src="images/3.png" alt="Schrödinger Plot" width="400">
 
 ---
@@ -39,7 +39,7 @@ Implements a tight-binding model with modified edge hopping to calculate band st
 **Prandtl-Tomlinson Model for Atomic-Scale Friction**
 
 Studies the PT model to simulate friction at the atomic scale, reproducing friction loops and analyzing the impact of thermal fluctuations via Langevin dynamics.  
-**Plot:**  
+
 <img src="images/4.png" alt="Prandtl Plot" width="400">
 
 ---
