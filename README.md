@@ -1,23 +1,49 @@
-# Computational-Science-Studies
-Mainly codes and reports that I've done for "Computational Methods for Material Science and Complex Systems" course.
+# Computational Science Studies
 
-This repository contains various homework projects covering numerical methods and simulations in material science and complex systems. Below is a brief overview of each folder and the methods/topics involved, along with example plots taken from the reports.
+This repository contains codes and reports for various projects in computational science focused on material science and complex systems. Each section briefly describes a project along with a representative plot from the report.
 
 ---
 
 ## Newton
 
-**Homework 01**  
-**Topic**: Three-mass system connected by springs with different stiffnesses, solved via two numerical methods:  
-- **Velocity Verlet Algorithm**  
-- **Time-Evolution Operator (Matrix Exponential)**  
+**Simulation of a Three-Mass Spring System**
 
-**Key Points**  
-- Velocity Verlet is symplectic and conserves energy well.  
-- Time-Evolution operator is exact for linear systems but can be computationally expensive for large ones.  
+Compares the velocity Verlet algorithm with the time-evolution operator method to simulate a three-mass system connected by springs.  
+**Plot:**  
+![Newton Plot](![image](https://github.com/user-attachments/assets/28b8f97d-c5b3-4664-aa3f-05bfb291d36d)
+)
 
-**Example Plot**  
-Shows the positions of the three masses over time for both methods:
+---
 
-```markdown
-![Three-mass system trajectories](images/newton_plot.png)
+## Fourier
+
+**Derivative Approximation Methods**
+
+Analyzes and compares derivative approximation using Finite-Difference methods, FFT-based methods, and the DFT matrix approach on smooth, periodic functions.  
+**Plot:**  
+![Fourier Plot](![image](https://github.com/user-attachments/assets/543b2938-9088-470b-bdad-7b4e719043b1)
+)
+
+---
+
+## Schrödinger
+
+**Tight-Binding Model for Graphene Nanoribbons**
+
+Implements a tight-binding model with modified edge hopping to calculate band structures of armchair graphene nanoribbons, highlighting the effect of edge corrections.  
+**Plot:**  
+![Schrödinger Plot](![image](https://github.com/user-attachments/assets/6d18800c-cb19-48e5-8dee-10c83c0a93ea)
+)
+
+---
+
+## Prandtl
+
+**Prandtl-Tomlinson Model for Atomic-Scale Friction**
+
+Studies the PT model to simulate friction at the atomic scale, reproducing friction loops and analyzing the impact of thermal fluctuations via Langevin dynamics.  
+**Plot:**  
+![Prandtl Plot](![image](https://github.com/user-attachments/assets/1824dd13-5828-4bdb-b79c-a9f2892c00e5)
+)
+
+---
