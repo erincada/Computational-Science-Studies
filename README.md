@@ -6,7 +6,7 @@ This repository contains codes and reports for various projects in computational
 
 ## Newton
 
-**Simulation of a Three-Mass Spring System**
+**Simulation of an Atomic Three-Mass Spring System**
 
 Compares the velocity Verlet algorithm with the time-evolution operator method to simulate a three-mass system connected by springs.  
  
