@@ -79,7 +79,7 @@ This repository contains codes and reports for various projects in computational
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <h3>Monte Carlo Simulation of the Ising Model</h3>
-    <p>This work implements a Monte Carlo simulation of the 2D Ising model to explore magnetic phase transitions in both ferromagnetic (J = +1) and antiferromagnetic (J = −1) systems. The study examines the effects of temperature and external magnetic fields on order parameters, employing the Metropolis algorithm accelerated by numba for efficiency. Key observations include the behavior of magnetization and staggered magnetization, as well as the impact of non-ideal order parameters on the sharpness of phase transitions.</p>
+    <p>This work implements a Monte Carlo simulation of the 2D Ising model to explore magnetic phase transitions in both ferromagnetic (J = +1) and antiferromagnetic  (J = −1) systems. The study examines the effects of temperature and external magnetic fields on order parameters, employing the Metropolis algorithm accelerated by numba for efficiency. Key observations include the behavior of magnetization and staggered magnetization, as well as the impact of non-ideal order parameters on the sharpness of phase transitions.</p>
   </div>
   <div style="flex: 1; text-align: right;">
     <img src="images/6.png" alt="Metropolis Plot" width="400">
