@@ -59,3 +59,30 @@ This repository contains codes and reports for various projects in computational
 </div>
 
 ---
+
+## Mandelbrot
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <h3>Fractal Geometry via the Chaos Game</h3>
+    <p>This project extends the chaos game approach to generate a pentagonal fractal (often termed the “Sierpinski pentagon”). By iteratively moving a fraction toward randomly chosen vertices of a regular pentagon, the fractal emerges. Two methods are used to quantify its complexity: the self-similarity dimension, yielding D<sub>self</sub> ≈ 1.6723, and the pointwise correlation dimension, with D<sub>corr</sub> ≈ 1.6750. These complementary approaches confirm the fractal’s scale-invariant nature.</p>
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="images/5.png" alt="Mandelbrot Plot" width="400">
+  </div>
+</div>
+
+---
+
+## Metropolis
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <h3>Monte Carlo Simulation of the Ising Model</h3>
+    <p>This work implements a Monte Carlo simulation of the 2D Ising model to explore magnetic phase transitions in both ferromagnetic (J = +1) and antiferromagnetic (J = −1) systems. The study examines the effects of temperature and external magnetic fields on order parameters, employing the Metropolis algorithm accelerated by numba for efficiency. Key observations include the behavior of magnetization and staggered magnetization, as well as the impact of non-ideal order parameters on the sharpness of phase transitions.</p>
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="images/6.png" alt="Metropolis Plot" width="400">
+  </div>
+</div>
+
