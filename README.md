@@ -86,3 +86,15 @@ This repository contains codes and reports for various projects in computational
   </div>
 </div>
 
+---
+## Sandpile Model
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <h3>Bak–Tang–Wiesenfeld Sandpile Model</h3>
+    <p>Implements the classical von Neumann (4‐neighbour) and modified Moore‐neighbour (8‐neighbour) sandpile models on a 200×200 lattice to study self‑organized criticality. Avalanche‑size distributions follow power laws with exponents τ<sub>VN</sub> ≈ 1.0873 and τ<sub>Moore</sub> ≈ 0.9900, demonstrating universality under different toppling rules.</p>
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="images/7.png" alt="Sandpile Model Snapshot" width="400">
+  </div>
+</div>
