@@ -98,3 +98,43 @@ This repository contains codes and reports for various projects in computational
     <img src="images/7.png" alt="Sandpile Model Snapshot" width="400">
   </div>
 </div>
+
+---
+
+## Fairén–Velarde Bacterial Respiration
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <h3>Bacterial Respiration Model &amp; Bifurcations</h3>
+    <p>
+      Analysis of the two‐variable Fairén–Velarde model:
+      <br>
+      &nbsp;• Found and classified fixed points via Jacobian trace (τ) and determinant (Δ).  
+      &nbsp;• Plotted nullclines (ẋ=0, ẏ=0) to locate equilibria.  
+      &nbsp;• Computed Hopf bifurcation curve A<sub>c</sub>(B) where τ=0.  
+      &nbsp;• Generated phase portrait (streamlines + sample trajectories) showing the stable focus.
+    </p>
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="images/phase.png" alt="Phase portrait (A=1.0, B=2.5, q=0.5)" width="400">
+  </div>
+</div>
+
+---
+
+## Spatial Prisoner’s Dilemma
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <h3>Spatial Evolution of Cooperation &amp; Defection</h3>
+    <p>
+      Simulation of a spatial Prisoner’s Dilemma on a 200×200 grid:
+      <br>
+      &nbsp;• Cooperators (C) and Defectors (D) update their strategy by imitating the highest‐payoff neighbor.  
+      &nbsp;• Two parameter regimes shown: <code>b=1.6</code> (cooperation clusters) vs. <code>b=1.9</code> (defector dominance).  
+      &nbsp;• Color map: <span style="color:blue">C→C</span>, <span style="color:red">D→D</span>, <span style="color:yellow">C→D</span>, <span style="color:green">D→C</span>.
+    </p>
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="images/spatial_pd.png" alt="Spatial PD snapshots for b=1.6 and b=1.9" width="400">
+  </div>
+</div>
